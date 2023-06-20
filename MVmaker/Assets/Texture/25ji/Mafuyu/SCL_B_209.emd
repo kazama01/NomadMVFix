@@ -1,0 +1,12 @@
+[Info]
+Version = 3
+
+[Effect]
+Obj = none
+Obj[0] = Shader\body_Mafuyu.fx
+Obj[1] = Shader\body_Mafuyu.fx
+Obj[2] = Shader\body_Mafuyu.fx
+Obj[3] = Shader\body_Mafuyu.fx
+Obj[4] = Shader\body_Mafuyu.fx
+Obj[5] = Shader\face_Mafuyu.fx
+

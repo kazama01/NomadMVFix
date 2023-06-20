@@ -1,0 +1,9 @@
+[Info]
+Version = 3
+
+[Effect]
+Obj = Tex\body.fx
+Obj.show = true
+Obj[6] = Tex\face.fx
+Obj[7] = Tex\acc.fx
+
