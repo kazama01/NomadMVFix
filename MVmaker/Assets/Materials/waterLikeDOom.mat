@@ -12,10 +12,11 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _RECEIVE_SHADOWS_OFF
+  - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _EMISSION
+  - _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
@@ -56,17 +57,17 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_25a0d6a9f976409b8ee79503d7977ae0: 1
-    - Vector1_4221fcf4722946699bf1ac417a15b196: 0.45
+    - Vector1_4221fcf4722946699bf1ac417a15b196: 1
     - Vector1_69b30a9eb1824053b4f6a532de7d3964: 1
     - Vector1_D4C42C4D: 0.2
     - Vector1_a0d7ac571c04468c8d95a023e866cb17: 1
     - Vector1_fbc2d52b2eb14ab78420f40071da3660: 1.53
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _AlphaToMask: 0
     - _Blend: 0
-    - _BlendModePreserveSpecular: 0
+    - _BlendModePreserveSpecular: 1
     - _CastShadows: 0
-    - _Cull: 0
+    - _Cull: 1
     - _DstBlend: 10
     - _QueueControl: 1
     - _QueueOffset: 0
@@ -78,9 +79,11 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - Color_6c8d436795014c42b1fb0d3e79103bd6: {r: 0.49213246, g: 0.5036668, b: 0.509434, a: 0}
+    - Color_6c8d436795014c42b1fb0d3e79103bd6: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 0}
     - Color_D8175247: {r: 0, g: 0, b: 0, a: 0}
     - Color_F493CC9E: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.6473057, g: 0.6473057, b: 0.6473057, a: 1}
+    - _Color_1: {r: 0.735849, g: 0.735849, b: 0.735849, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2944360776595272131
 MonoBehaviour:
