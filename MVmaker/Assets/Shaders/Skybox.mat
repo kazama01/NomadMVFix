@@ -32,7 +32,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _QueueOffset
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -116,7 +116,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Float: 0
+    - _Float: 0.9606439
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
