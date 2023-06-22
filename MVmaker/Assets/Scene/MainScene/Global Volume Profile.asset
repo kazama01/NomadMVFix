@@ -48,20 +48,20 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   minSmoothness:
-    m_OverrideState: 0
-    m_Value: 0.4
+    m_OverrideState: 1
+    m_Value: 0.77
   fadeSmoothness:
     m_OverrideState: 0
-    m_Value: 0.6
+    m_Value: 0
   edgeFade:
-    m_OverrideState: 1
-    m_Value: 0.1
+    m_OverrideState: 0
+    m_Value: 0
   thicknessMode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   thickness:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.061
   quality:
     m_OverrideState: 1
     m_Value: 2
@@ -150,10 +150,10 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 9.69
+    m_Value: 2
   scatter:
     m_OverrideState: 1
-    m_Value: 0.608
+    m_Value: 0.811
   clamp:
     m_OverrideState: 0
     m_Value: 65472
