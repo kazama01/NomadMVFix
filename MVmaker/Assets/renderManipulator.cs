@@ -8,11 +8,17 @@ using UnityEngine.Rendering.Universal;
 public class renderManipulator : MonoBehaviour
 {
     public UniversalRendererData feature;
+    public int renderTarget;
     public float timer;
+    public bool bol;
     // Start is called before the first frame update
     private void Awake()
     {
-        feature.rendererFeatures[1].SetActive(true);
+        if(feature == false && bol == true)
+        {
+            feature.rendererFeatures[renderTarget].SetActive(true);
+        }
+        else { feature.rendererFeatures[renderTarget].SetActive(false);}
     }
 
     // Update is called once per frame
@@ -20,7 +26,11 @@ public class renderManipulator : MonoBehaviour
     {
         if (timer == 1)
         {
-            feature.rendererFeatures[1].SetActive(false);
+            feature.rendererFeatures[renderTarget].SetActive(false);
+        }
+        else
+        {
+            feature.rendererFeatures[renderTarget].SetActive(true) ;
         }
        
     }
