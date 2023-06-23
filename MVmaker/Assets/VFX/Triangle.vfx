@@ -245,12 +245,12 @@ MonoBehaviour:
   - link: []
   blendMode: 3
   cullMode: 3
-  zWriteMode: 0
+  zWriteMode: 2
   zTestMode: 3
   useAlphaClipping: 1
   generateMotionVector: 0
   excludeFromTAA: 0
-  sortingPriority: 0
+  sortingPriority: -50
   m_SubOutputs: []
   colorMapping: 0
   uvMode: 0
@@ -2600,12 +2600,12 @@ MonoBehaviour:
   - link: []
   blendMode: 3
   cullMode: 3
-  zWriteMode: 0
+  zWriteMode: 2
   zTestMode: 3
   useAlphaClipping: 1
   generateMotionVector: 0
   excludeFromTAA: 0
-  sortingPriority: 0
+  sortingPriority: -50
   m_SubOutputs: []
   colorMapping: 0
   uvMode: 0
@@ -2976,12 +2976,12 @@ MonoBehaviour:
   - link: []
   blendMode: 3
   cullMode: 3
-  zWriteMode: 0
+  zWriteMode: 2
   zTestMode: 3
   useAlphaClipping: 1
   generateMotionVector: 0
   excludeFromTAA: 0
-  sortingPriority: 0
+  sortingPriority: -50
   m_SubOutputs: []
   colorMapping: 0
   uvMode: 0
