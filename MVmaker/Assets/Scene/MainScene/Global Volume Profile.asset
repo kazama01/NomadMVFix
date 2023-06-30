@@ -40,16 +40,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e7a493a130cb884da2affdb3d67eacc, type: 3}
   m_Name: ScreenSpaceReflection
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   state:
     m_OverrideState: 1
     m_Value: 1
   algorithm:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   minSmoothness:
     m_OverrideState: 1
-    m_Value: 0.77
+    m_Value: 0.814
   fadeSmoothness:
     m_OverrideState: 0
     m_Value: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
     m_Value: 0.061
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 3
   maxStep:
     m_OverrideState: 1
     m_Value: 128
